@@ -12,13 +12,14 @@ Link: https://youtu.be/CP9u6fk73YQ
 
 ## What this is
 
-This project ties together three core robotics components into a single working system:
+This project ties together four core robotics components into a single working system:
 
+- **Gazebo** — physics simulator that hosts the TurtleBot3 world and publishes `/odom` odometry feedback
 - **RRT path planner** — finds a collision-free path through an occupancy grid map
 - **Motion Planner** — the coordinator node that sequences waypoints and triggers planning
 - **PID Controller** — drives the robot to each waypoint using odometry feedback
 
-The result is a robot that you give a goal coordinate to, and it figures out how to get there on its own.
+The result is a robot that you give a goal coordinate to, and it figures out how to get there on its own — planning, navigating, and correcting itself in a fully simulated 3D environment.
 
 Built as part of an autonomous systems course (Spring 2026) using ROS Noetic + Gazebo + TurtleBot3.
 

@@ -1,0 +1,2 @@
+path_planning
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/Lab_Deepanshu_Tanwar_ws/Lab5_Deepanshu_Tanwar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Lab_Deepanshu_Tanwar_ws/Lab5_Deepanshu_Tanwar_ws/install -G Unix Makefiles
